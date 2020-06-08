@@ -41,8 +41,9 @@ def Load_PatternNet_as_NPY(train_dir, test_dir):
     # Training data #
     #################
     train_data = [[], []]
-    for fname in glob.glob(train_dir+"\*.jpg"):
-        with open(fname, "r") as f:
+    for fname in glob.glob(train_dir+"\*.npy"):
+        with open(fname, "rb") as f:
+
             train_data[0].append(np.load(f))
 
         # parse fname
@@ -54,16 +55,17 @@ def Load_PatternNet_as_NPY(train_dir, test_dir):
     # Testing data #
     ################
     test_data = [[], []]
-    for fname in glob.glob(test_dir + "\*.jpg"):
+    for fname in glob.glob(test_dir + "\*.npy"):
         with open(fname, "r") as f:
             test_data[0].append(np.load(f))
 
         # parse fname
         p_fname = os.path.basename(fname).split("_")[-2]
+        print(p_fname)
         truth = p_fname == img_classes
         test_data[1].append(truth)
 
     return train_data, test_data
 
-Load_PatternNet_as_NPY(r"C:\Users\Noah Barrett\Desktop\School\Research 2020\data\deep_learning\PatternNet\TRAIN",
-                        r"C:\Users\Noah Barrett\Desktop\School\Research 2020\data\deep_learning\PatternNet\TEST")
+train, test = Load_PatternNet_as_NPY(r"C:\Users\Noah Barrett\Desktop\School\Research 2020\data\deep_learning\PatternNet\TRAIN\NPY",
+                        r"C:\Users\Noah Barrett\Desktop\School\Research 2020\data\deep_learning\PatternNet\TEST\NPY")
