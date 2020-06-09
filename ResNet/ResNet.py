@@ -14,7 +14,7 @@ resnet is a ANN that builds on constructs known from pyramidal cells in the cere
 
 import tensorflow.keras
 from tensorflow.keras.layers import Dense, Conv2D
-from tensorflow.keras.layers import BatchNormalization, Activation
+from tensorflow.keras.layers import BatchNormalization, Activation, Add
 from tensorflow.keras.layers import AveragePooling2D, Input, Flatten
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import ModelCheckpoint
@@ -30,6 +30,7 @@ import os
 import matplotlib.pyplot as plt
 from six.moves import cPickle
 import time
+import tensorflow as tf
 
 # Load the CIFAR10 data.
 (x_train, y_train), (x_test, y_test) = cifar10.load_data()
@@ -143,6 +144,30 @@ def resnet_layer(inputs,
         x = conv(x)
     return x
 
+def residual_block(x):
+    """
+    Residual block
+    """
+    filters = [64, 64]
+    kernel_size = 3
+    strides = 1
+    padding = "same"
+    momentum = 0.8
+    activation = "relu"
+
+    res = Conv2D(filters=filters[0], kernel_size=kernel_size,
+                 strides=strides, padding=padding)(x)
+    res = Activation(activation=activation)(res)
+    res = BatchNormalization(momentum=momentum)(res)
+
+    res = Conv2D(filters=filters[1], kernel_size=kernel_size,
+                 strides=strides, padding=padding)(res)
+    res = BatchNormalization(momentum=momentum)(res)
+
+    # Add res and x ( skip connection )
+    res = Add()([res, x])
+
+    return res
 
 def resnet_v1(input_shape, depth, num_classes=10):
     """
