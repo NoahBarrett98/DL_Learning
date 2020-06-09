@@ -2,11 +2,23 @@ import glob
 import os
 from PIL import Image
 import numpy as np
+import pickle
+
 try:
     ROOT_DIR = os.environ["DL_DATA"]
 except KeyError:
     os.environ["DL_DATA"] = input("DL data root dir: ")
     ROOT_DIR = os.environ["DL_DATA"]
+
+
+# load patternNet labels
+PIK = r"./load/labels/PatternNetLabels.pkl"
+with open(PIK, "rb") as f:
+   PNET_LABELS = np.array(pickle.load(f))
+
+PatternNet_label_convert = lambda x: x == PNET_LABELS
+
+
 
 def save_as_npy(base_dir, fpath):
     new_dir = os.path.join(base_dir, "NPY")
@@ -17,11 +29,13 @@ def save_as_npy(base_dir, fpath):
     for dir in glob.glob(fpath+"\*"):
         img_class = os.path.basename(dir)
         for i, img in enumerate(glob.glob(dir +"\*.jpg")):
+            label = os.path.split(os.path.split(img)[0])[1]
             new_f = os.path.join(new_dir, img_class+"_{}".format(i)+".npy")
             img = Image.open(img)
             with open(new_f, 'wb') as f:
                 np.save(f, np.array(img))
-
+                # save label
+                np.save(f, PatternNet_label_convert(label))
 
 
 def class_to_idx(fname, e_dict):
@@ -67,5 +81,3 @@ def Load_PatternNet_as_NPY(train_dir, test_dir):
 
     return train_data, test_data
 
-train, test = Load_PatternNet_as_NPY(r"C:\Users\Noah Barrett\Desktop\School\Research 2020\data\deep_learning\PatternNet\TRAIN\NPY",
-                        r"C:\Users\Noah Barrett\Desktop\School\Research 2020\data\deep_learning\PatternNet\TEST\NPY")

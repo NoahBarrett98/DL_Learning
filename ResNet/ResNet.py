@@ -144,8 +144,6 @@ def resnet_layer(inputs,
     return x
 
 
-
-
 def resnet_v1(input_shape, depth, num_classes=10):
     """
     ResNet V1 Implementation:
