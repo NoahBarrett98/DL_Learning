@@ -12,6 +12,7 @@ lr = 1e-2
 BATCH_SIZE = 128
 NUM_EPOCHS = 60
 
+
 # instantiate model
 model = MiniVGGNetModel(len(util.PNET_LABELS))
 

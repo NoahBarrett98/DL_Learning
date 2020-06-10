@@ -9,7 +9,7 @@ class NPYDataGenerator(tf.keras.utils.Sequence):
     dir structure is assumed to contain all .npy files
     .npy files assumed to store X, y in file, independently
     """
-    def __init__(self, file_dir, labels,dim=(256, 256), n_channels=3,  batch_size=3,
+    def __init__(self, file_dir, labels,dim=(256, 256), n_channels=3,  batch_size=1,
                   shuffle=True):
         # call the parent constructor
         super(NPYDataGenerator, self).__init__()
@@ -61,3 +61,26 @@ class NPYDataGenerator(tf.keras.utils.Sequence):
               y[i] = np.load(file)
 
       return X, y
+
+class NPYDataGeneratorSR(NPYDataGenerator):
+    def __init__(self, file_dir, labels=False, dim=(256, 256), lr_dim=(64,64), n_channels=3,  batch_size=3,
+                  shuffle=True):
+        # call the parent constructor
+        super(NPYDataGeneratorSR, self).__init__(file_dir=file_dir, labels=False)
+        self.lr_dim = lr_dim
+    def _datagen(self, files):
+        'Generates data containing batch_size samples'  # X : (n_samples, *dim, n_channels)
+        # Initialization
+        X = np.empty((self.batch_size, *self.dim, self.n_channels))
+        y = np.empty((self.batch_size, *self.lr_dim, self.n_channels))
+        # Generate data
+        for i, f in enumerate(files):
+            ### each file is stored with val then label ###
+            # Store sample
+            with open(f, 'rb') as file:
+                X[i,] = np.load(file)
+                # Store class
+
+                y[i] = np.load(file)
+
+        return X, y
