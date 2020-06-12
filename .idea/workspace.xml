@@ -2,22 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edab7e27-d465-4a06-96a1-3348c4b93894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SR_GAN/Discriminator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SR_GAN/Generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/load/UpSample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/train/events.out.tfevents.1591812139.DESKTOP-1MO5M6Q.31232.5850.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/train/events.out.tfevents.1591812141.DESKTOP-1MO5M6Q.31232.5860.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/train/events.out.tfevents.1591812604.DESKTOP-1MO5M6Q.22264.5850.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/train/events.out.tfevents.1591812607.DESKTOP-1MO5M6Q.22264.5860.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/train/events.out.tfevents.1591812652.DESKTOP-1MO5M6Q.22264.11712.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/train/events.out.tfevents.1591812656.DESKTOP-1MO5M6Q.22264.11722.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/train/events.out.tfevents.1591812758.DESKTOP-1MO5M6Q.25416.5850.v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/train/events.out.tfevents.1591812760.DESKTOP-1MO5M6Q.25416.5860.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SR_GAN/MiniVGG.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SR_GAN/NPYDataGenerator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SR_GAN/ResLayer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SR_GAN/logs/train/events.out.tfevents.1591967653.DESKTOP-1MO5M6Q.21824.5850.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SR_GAN/logs/train/events.out.tfevents.1591967655.DESKTOP-1MO5M6Q.21824.5860.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SR_GAN/logs/train/events.out.tfevents.1591967743.DESKTOP-1MO5M6Q.4304.5850.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SR_GAN/logs/train/events.out.tfevents.1591967745.DESKTOP-1MO5M6Q.4304.5860.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SR_GAN/logs/train/events.out.tfevents.1591967782.DESKTOP-1MO5M6Q.12628.5850.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SR_GAN/logs/train/events.out.tfevents.1591967784.DESKTOP-1MO5M6Q.12628.5860.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SR_GAN/logs/train/events.out.tfevents.1591967849.DESKTOP-1MO5M6Q.19520.5850.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SR_GAN/logs/train/events.out.tfevents.1591967851.DESKTOP-1MO5M6Q.19520.5860.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SR_GAN/logs/train/events.out.tfevents.1591967911.DESKTOP-1MO5M6Q.19564.5850.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SR_GAN/logs/train/events.out.tfevents.1591967913.DESKTOP-1MO5M6Q.19564.5860.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/environment.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/train/events.out.tfevents.1591817417.DESKTOP-1MO5M6Q.15504.5850.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/train/events.out.tfevents.1591817419.DESKTOP-1MO5M6Q.15504.5860.v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple_2d_conv/Conv2d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/simple_2d_conv/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MiniVGGNet/train_PatternNet.py" beforeDir="false" afterPath="$PROJECT_DIR$/MiniVGGNet/train_PatternNet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SR_GAN/Discriminator.py" beforeDir="false" afterPath="$PROJECT_DIR$/SR_GAN/Discriminator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SR_GAN/Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/SR_GAN/Generator.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SR_GAN/SR_GAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/SR_GAN/SR_GAN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SR_GAN/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/SR_GAN/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/load/NPYDataGenerator.py" beforeDir="false" afterPath="$PROJECT_DIR$/load/NPYDataGenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SR_GAN/train.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,10 +57,13 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SR_GAN" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Noah Barrett\Desktop\School\Research 2020\code\DL_Learning\SR_GAN" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Noah Barrett\Desktop\School\Research 2020\code\DL_Learning" />
     </key>
@@ -69,7 +80,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.UpSample">
+  <component name="RunManager" selected="Python.SR_GAN">
+    <configuration name="Conv2d" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deep-learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/simple_2d_conv" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/simple_2d_conv/Conv2d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="SR-GAN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deep-learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,6 +115,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="C:\Users\Noah Barrett\Desktop\School\Research 2020\code\DL_Learning\SR-GAN\SR_GAN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SR_GAN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="deep-learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SR_GAN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SR_GAN/SR_GAN.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -112,27 +165,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="npy_datagen" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="deep-learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/load" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/load/npy_datagen.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deep-learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -154,34 +186,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_PatternNet" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="deep-learning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MiniVGGNet" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MiniVGGNet/train_PatternNet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.UpSample" />
+        <item itemvalue="Python.SR_GAN" />
+        <item itemvalue="Python.Conv2d" />
         <item itemvalue="Python.train" />
+        <item itemvalue="Python.UpSample" />
         <item itemvalue="Python.SR-GAN" />
-        <item itemvalue="Python.train_PatternNet" />
-        <item itemvalue="Python.npy_datagen" />
       </list>
     </recent_temporary>
   </component>

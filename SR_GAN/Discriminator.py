@@ -1,6 +1,6 @@
 from tensorflow.keras.layers import BatchNormalization, Activation, LeakyReLU, Add, Dense, PReLU, Flatten, Conv2D, UpSampling2D
 from tensorflow.keras.models import Model
-from ResNet.ResLayer import ResLayer
+
 
 class Discriminator(Model):
     def __init__(self,
