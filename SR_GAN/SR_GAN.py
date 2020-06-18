@@ -36,8 +36,10 @@ validation_generator = NPYDataGeneratorSR(file_dir=r"C:\Users\Noah Barrett\Deskt
 generator = Generator()
 discriminator = Discriminator()
 vgg = tf.keras.applications.VGG19()
-# only use 1st and 2nd layer
+# # only use 1st and 2nd layer
 vgg = tf.keras.Sequential(vgg.layers[:7])
+# freeze model
+vgg.trainable = False
 
 ### loss functions ###
 gen_loss = tf.keras.losses.BinaryCrossentropy()
@@ -135,6 +137,7 @@ def dis_test_step(high_res, low_res):
 ### TRAIN ###
 EPOCHS = 5
 
+
 for epoch in range(EPOCHS):
   # Reset the metrics at the start of the next epoch
   gen_train_loss.reset_states()
@@ -179,6 +182,8 @@ for epoch in range(EPOCHS):
                             dis_train_accuracy.result() * 100,
                             dis_test_loss.result(),
                             dis_test_accuracy.result() * 100))
+
+      ### save weights ###
 
 
 
