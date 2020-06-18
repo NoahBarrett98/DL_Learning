@@ -17,8 +17,8 @@ ds_size = info.splits["train"].num_examples
 num_features = info.features["label"].num_classes
 data = tfds.as_numpy(data)
 train_data, train_label = data["image"], data["label"]
-
-logdir = "Tensorboard/logs/simpleCV/" + datetime.now().strftime("%Y%m%d-%H%M%S")
+name = "simplecv{}".format(datetime.now().strftime("%Y%m%d-%H%M%S"))
+logdir = "Tensorboard/logs/{}".format(name)
 tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir)
 
 ### build conv model ###
@@ -46,7 +46,6 @@ training_history = conv.fit(
                             train_data,
                             train_label,
                             batch_size=batch_size,
-                            verbose=0, # Suppress chatty output; use Tensorboard instead
                             epochs=EPOCHS,
                             callbacks=[tensorboard_callback],
                         )
