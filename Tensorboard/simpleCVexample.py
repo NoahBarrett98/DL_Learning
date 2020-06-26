@@ -18,7 +18,7 @@ num_features = info.features["label"].num_classes
 data = tfds.as_numpy(data)
 train_data, train_label = data["image"], data["label"]
 name = "simplecv{}".format(datetime.now().strftime("%Y%m%d-%H%M%S"))
-logdir = "Tensorboard/logs/{}".format(name)
+logdir = "logs/{}".format(name)
 tensorboard_callback = keras.callbacks.TensorBoard(log_dir=logdir)
 
 ### build conv model ###
@@ -49,3 +49,6 @@ training_history = conv.fit(
                             epochs=EPOCHS,
                             callbacks=[tensorboard_callback],
                         )
+
+
+

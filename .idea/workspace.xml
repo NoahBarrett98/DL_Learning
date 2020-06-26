@@ -2,30 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edab7e27-d465-4a06-96a1-3348c4b93894" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simplecv20200618-130246/train/events.out.tfevents.1592496175.DESKTOP-1MO5M6Q.profile-empty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simplecv20200618-130246/train/plugins/profile/2020_06_18_16_02_55/DESKTOP-1MO5M6Q.tensorflow_stats.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simplecv20200618-130246/train/plugins/profile/2020_06_18_16_02_55/DESKTOP-1MO5M6Q.trace.json.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deep-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deep-learning.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progressive GAN/Layers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Progressive GAN/ProGANVanilla.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/simplecv20200618-142223/train/events.out.tfevents.1592500959.DESKTOP-1MO5M6Q.profile-empty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/simplecv20200618-142223/train/plugins/profile/2020_06_18_17_22_39/DESKTOP-1MO5M6Q.kernel_stats.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/simplecv20200618-142223/train/plugins/profile/2020_06_18_17_22_39/DESKTOP-1MO5M6Q.tensorflow_stats.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/simplecv20200618-142223/train/plugins/profile/2020_06_18_17_22_39/DESKTOP-1MO5M6Q.trace.json.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simpleCV/20200618-104341/train/events.out.tfevents.1592487822.DESKTOP-1MO5M6Q.24088.365.v2" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simplecv20200618-130246/train/events.out.tfevents.1592496166.DESKTOP-1MO5M6Q.2316.375.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simpleCV/20200618-105331/train/events.out.tfevents.1592488412.DESKTOP-1MO5M6Q.28512.375.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simpleCV/20200618-105451/train/events.out.tfevents.1592488492.DESKTOP-1MO5M6Q.30184.375.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simpleCV/20200618-105642/train/events.out.tfevents.1592488603.DESKTOP-1MO5M6Q.31568.375.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simpleCV/20200618-105753/train/events.out.tfevents.1592488674.DESKTOP-1MO5M6Q.29788.375.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorboard/logs/simpleCV/20200618-104534/train/events.out.tfevents.1592487935.DESKTOP-1MO5M6Q.28612.365.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorboard/logs/simpleCV/20200618-104902/train/events.out.tfevents.1592488142.DESKTOP-1MO5M6Q.28612.946.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorboard/logs/simpleCV/20200618-110213/train/events.out.tfevents.1592488934.DESKTOP-1MO5M6Q.296.375.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorboard/logs/simpleCV/20200618-110334/train/events.out.tfevents.1592489015.DESKTOP-1MO5M6Q.296.812.v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorboard/logs/simpleCV/20200618-110334/train/events.out.tfevents.1592489018.DESKTOP-1MO5M6Q.profile-empty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorboard/logs/simpleCV/20200618-110334/train/plugins/profile/2020_06_18_14_03_38/DESKTOP-1MO5M6Q.input_pipeline.pb" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simplecv20200618-130246/train/plugins/profile/2020_06_18_16_02_55/DESKTOP-1MO5M6Q.input_pipeline.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorboard/logs/simpleCV/20200618-110334/train/plugins/profile/2020_06_18_14_03_38/DESKTOP-1MO5M6Q.kernel_stats.pb" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simplecv20200618-130246/train/plugins/profile/2020_06_18_16_02_55/DESKTOP-1MO5M6Q.kernel_stats.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorboard/logs/simpleCV/20200618-110334/train/plugins/profile/2020_06_18_14_03_38/DESKTOP-1MO5M6Q.overview_page.pb" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simplecv20200618-130246/train/plugins/profile/2020_06_18_16_02_55/DESKTOP-1MO5M6Q.overview_page.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorboard/logs/simpleCV/20200618-110334/train/plugins/profile/2020_06_18_14_03_38/DESKTOP-1MO5M6Q.tensorflow_stats.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tensorboard/logs/simpleCV/20200618-110334/train/plugins/profile/2020_06_18_14_03_38/DESKTOP-1MO5M6Q.trace.json.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simplecv20200618-130246/train/events.out.tfevents.1592496166.DESKTOP-1MO5M6Q.2316.375.v2" beforeDir="false" afterPath="$PROJECT_DIR$/logs/simplecv20200618-142223/train/events.out.tfevents.1592500945.DESKTOP-1MO5M6Q.10564.375.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simplecv20200618-130246/train/events.out.tfevents.1592496175.DESKTOP-1MO5M6Q.profile-empty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simplecv20200618-130246/train/plugins/profile/2020_06_18_16_02_55/DESKTOP-1MO5M6Q.input_pipeline.pb" beforeDir="false" afterPath="$PROJECT_DIR$/logs/simplecv20200618-142223/train/plugins/profile/2020_06_18_17_22_39/DESKTOP-1MO5M6Q.input_pipeline.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simplecv20200618-130246/train/plugins/profile/2020_06_18_16_02_55/DESKTOP-1MO5M6Q.kernel_stats.pb" beforeDir="false" afterPath="$PROJECT_DIR$/Progressive GAN/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simplecv20200618-130246/train/plugins/profile/2020_06_18_16_02_55/DESKTOP-1MO5M6Q.overview_page.pb" beforeDir="false" afterPath="$PROJECT_DIR$/logs/simplecv20200618-142223/train/plugins/profile/2020_06_18_17_22_39/DESKTOP-1MO5M6Q.overview_page.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simplecv20200618-130246/train/plugins/profile/2020_06_18_16_02_55/DESKTOP-1MO5M6Q.tensorflow_stats.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tensorboard/Tensorboard/logs/simplecv20200618-130246/train/plugins/profile/2020_06_18_16_02_55/DESKTOP-1MO5M6Q.trace.json.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tensorboard/simpleCVexample.py" beforeDir="false" afterPath="$PROJECT_DIR$/Tensorboard/simpleCVexample.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +43,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -61,19 +54,20 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Progressive GAN" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Noah Barrett\Desktop\School\Research 2020\code\DL_Learning\SR_GAN" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Noah Barrett\Desktop\School\Research 2020\code\DL_Learning" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Noah Barrett\Desktop\School\Research 2020\code\DL_Learning\Progressive GAN" />
+      <recent name="C:\Users\Noah Barrett\Desktop\School\Research 2020\code\DL_Learning\SR_GAN" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.simpleCVexample">
+  <component name="RunManager" selected="Python.Conv2d">
     <configuration name="Conv2d" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="deep-learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,9 +202,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Conv2d" />
         <item itemvalue="Python.simpleCVexample" />
         <item itemvalue="Python.SR_GAN" />
-        <item itemvalue="Python.Conv2d" />
         <item itemvalue="Python.train" />
         <item itemvalue="Python.UpSample" />
       </list>
@@ -227,8 +221,21 @@
       <option name="presentableId" value="Default" />
       <updated>1591635355922</updated>
       <workItem from="1592487338604" duration="5427000" />
-      <workItem from="1592496009959" duration="981000" />
+      <workItem from="1592496009959" duration="3361000" />
+      <workItem from="1592500736931" duration="2267000" />
+      <workItem from="1592507847808" duration="45000" />
+      <workItem from="1592591461747" duration="728000" />
+      <workItem from="1592826142015" duration="487000" />
+      <workItem from="1593200271595" duration="39000" />
     </task>
+    <task id="LOCAL-00001" summary="deployment connected">
+      <created>1592497053614</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592497053614</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,13 +255,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="deployment connected" />
+    <option name="LAST_COMMIT_MESSAGE" value="deployment connected" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-3840" y="2" key="#Deployment" timestamp="1592496081332">
-      <screen x="-3840" y="0" width="1280" height="693" />
+    <state x="0" y="2" key="#Deployment" timestamp="1592498954414">
+      <screen x="0" y="0" width="1360" height="687" />
     </state>
     <state x="-3840" y="2" key="#Deployment/-3840.0.1280.693/0.0.1360.687@-3840.0.1280.693" timestamp="1592496081331" />
-    <state x="0" y="2" key="#Deployment/-3840.0.1280.693/0.0.1360.687@0.0.1360.687" timestamp="1592490622139" />
+    <state x="0" y="2" key="#Deployment/-3840.0.1280.693/0.0.1360.687@0.0.1360.687" timestamp="1592498954414" />
     <state x="0" y="0" key="#SSH_Configurations" timestamp="1592490568104">
       <screen x="0" y="0" width="1360" height="687" />
     </state>
@@ -267,26 +276,35 @@
       <screen x="0" y="0" width="1360" height="687" />
     </state>
     <state x="291" y="145" key="#com.intellij.fileTypes.FileTypeChooser/-3840.0.1280.693/0.0.1360.687@0.0.1360.687" timestamp="1592490281962" />
-    <state width="1237" height="222" key="GridCell.Tab.0.bottom" timestamp="1592496145888">
-      <screen x="-3840" y="0" width="1280" height="693" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1592497050573">
+      <screen x="0" y="0" width="1360" height="687" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/-3840.0.1280.693/0.0.1360.687@0.0.1360.687" timestamp="1592497050573" />
+    <state x="120" y="102" key="FileChooserDialogImpl" timestamp="1592826627062">
+      <screen x="0" y="0" width="1360" height="687" />
+    </state>
+    <state x="-3727" y="103" key="FileChooserDialogImpl/-3840.0.1280.693/0.0.1360.687@-3840.0.1280.693" timestamp="1592502848678" />
+    <state x="120" y="102" key="FileChooserDialogImpl/-3840.0.1280.693/0.0.1360.687@0.0.1360.687" timestamp="1592826627062" />
+    <state width="634" height="85" key="GridCell.Tab.0.bottom" timestamp="1592608799992">
+      <screen x="0" y="0" width="1360" height="687" />
     </state>
     <state width="1237" height="222" key="GridCell.Tab.0.bottom/-3840.0.1280.693/0.0.1360.687@-3840.0.1280.693" timestamp="1592496145888" />
-    <state width="614" height="201" key="GridCell.Tab.0.bottom/-3840.0.1280.693/0.0.1360.687@0.0.1360.687" timestamp="1592492783709" />
-    <state width="1237" height="222" key="GridCell.Tab.0.center" timestamp="1592496145888">
-      <screen x="-3840" y="0" width="1280" height="693" />
+    <state width="634" height="85" key="GridCell.Tab.0.bottom/-3840.0.1280.693/0.0.1360.687@0.0.1360.687" timestamp="1592608799992" />
+    <state width="634" height="85" key="GridCell.Tab.0.center" timestamp="1592608799992">
+      <screen x="0" y="0" width="1360" height="687" />
     </state>
     <state width="1237" height="222" key="GridCell.Tab.0.center/-3840.0.1280.693/0.0.1360.687@-3840.0.1280.693" timestamp="1592496145888" />
-    <state width="614" height="201" key="GridCell.Tab.0.center/-3840.0.1280.693/0.0.1360.687@0.0.1360.687" timestamp="1592492783709" />
-    <state width="1237" height="222" key="GridCell.Tab.0.left" timestamp="1592496145887">
-      <screen x="-3840" y="0" width="1280" height="693" />
+    <state width="634" height="85" key="GridCell.Tab.0.center/-3840.0.1280.693/0.0.1360.687@0.0.1360.687" timestamp="1592608799992" />
+    <state width="634" height="85" key="GridCell.Tab.0.left" timestamp="1592608799992">
+      <screen x="0" y="0" width="1360" height="687" />
     </state>
     <state width="1237" height="222" key="GridCell.Tab.0.left/-3840.0.1280.693/0.0.1360.687@-3840.0.1280.693" timestamp="1592496145887" />
-    <state width="614" height="201" key="GridCell.Tab.0.left/-3840.0.1280.693/0.0.1360.687@0.0.1360.687" timestamp="1592492783709" />
-    <state width="1237" height="222" key="GridCell.Tab.0.right" timestamp="1592496145888">
-      <screen x="-3840" y="0" width="1280" height="693" />
+    <state width="634" height="85" key="GridCell.Tab.0.left/-3840.0.1280.693/0.0.1360.687@0.0.1360.687" timestamp="1592608799992" />
+    <state width="634" height="85" key="GridCell.Tab.0.right" timestamp="1592608799992">
+      <screen x="0" y="0" width="1360" height="687" />
     </state>
     <state width="1237" height="222" key="GridCell.Tab.0.right/-3840.0.1280.693/0.0.1360.687@-3840.0.1280.693" timestamp="1592496145888" />
-    <state width="614" height="201" key="GridCell.Tab.0.right/-3840.0.1280.693/0.0.1360.687@0.0.1360.687" timestamp="1592492783709" />
+    <state width="634" height="85" key="GridCell.Tab.0.right/-3840.0.1280.693/0.0.1360.687@0.0.1360.687" timestamp="1592608799992" />
     <state width="614" height="201" key="GridCell.Tab.1.bottom" timestamp="1592492783710">
       <screen x="0" y="0" width="1360" height="687" />
     </state>
@@ -329,6 +347,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DL_Learning$simpleCVexample.coverage" NAME="simpleCVexample Coverage Results" MODIFIED="1592496138122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorboard" />
+    <SUITE FILE_PATH="coverage/DL_Learning$simpleCVexample.coverage" NAME="simpleCVexample Coverage Results" MODIFIED="1592498136237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tensorboard" />
+    <SUITE FILE_PATH="coverage/DL_Learning$Conv2d.coverage" NAME="Conv2d Coverage Results" MODIFIED="1592591533467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/simple_2d_conv" />
   </component>
 </project>
